@@ -38,12 +38,13 @@ Please note that **build instruction** would help you kick start with SOME-IP.
 
 Start compiling:
 ```bash
-cd ~/SOME-IP/trunk/capicxx-core-runtime/
+cd ~/some-ip/capicxx-core-runtime/
 mkdir build && cd build
 cmake .. && make
 ```
 You should now find the libraries in the capicxx-core-runtime/build folder.
 ```bash
+#back to root (~/some-ip/
 cd ../..
 cd vsomeip
 mkdir build && cd build
