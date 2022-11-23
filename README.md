@@ -15,7 +15,7 @@ sudo apt update
 #sudo dpkg-reconfigure keyboard-configuration
 
 #Compiling essentials
-sudo apt install build-essential
+sudo apt install build-essential cmake git
 
 #Boost > 1.55 -> 1.58 (2022 Nov)
 sudo apt install libboost-system-dev libboost-thread-dev libboost-log-dev
