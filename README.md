@@ -10,6 +10,10 @@ It is assumed that, you have 2 machines, preferably Raspberry PI's for testing t
 Based on a Ubuntu 16.04 LTS
 ```bash
 sudo apt update
+
+#for a fresh start may need
+#sudo dpkg-reconfigure keyboard-configuration
+
 #sudo apt install doxygen asciidoc graphviz source-highlight libboost-system-dev libboost-thread-dev libboost-log-dev
 sudo apt install doxygen asciidoc graphviz source-highlight libboost-system1.55-dev libboost-thread1.55-dev libboost-log1.55-dev
 ```
