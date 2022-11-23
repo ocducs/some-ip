@@ -7,9 +7,11 @@ NOTE: I'm adding the source for 3 libraries which are essential for creating SOM
 ## Primary Requirements
 It is assumed that, you have 2 machines, preferably Raspberry PI's for testing the build. We would be running the server and client on 2 different nodes. This repository should be present on both the machines. 
 
+Based on a Ubuntu 16.04 LTS
 ```bash
-sudo apt-get update
-sudo apt-get install doxygen asciidoc graphviz source-highlight libboost-system-dev libboost-thread-dev libboost-log-dev
+sudo apt update
+#sudo apt install doxygen asciidoc graphviz source-highlight libboost-system-dev libboost-thread-dev libboost-log-dev
+sudo apt install doxygen asciidoc graphviz source-highlight libboost-system1.55-dev libboost-thread1.55-dev libboost-log1.55-dev
 ```
 Any boost version above 1_55 would be good, you can check the version with this command:
 ```bash
